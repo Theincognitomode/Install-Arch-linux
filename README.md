@@ -1,3 +1,5 @@
+## How to install Arch-Linux on Oracle VB
+
 1. Download the oracle virtual box :) 
 https://www.virtualbox.org/
 
@@ -11,11 +13,16 @@ https://archlinux.org/download/
 
 5. Then start the machine, let the machine if everysteps are done correctly you will get a terminal with root privileges now run the following command :
 
- i) setfont ter-132n
+ ``` setfont ter-132n ```
+ 
  ii) Check for stable connection using: ping archlinux.org
+ 
  iii) Type `pacman -Sy` to synchronize the packagelist.
+ 
  iv) Then install the arsenalinex keyring package `pacman -Sy archlinux-keyring 
+ 
  v) Launch the archlinux installer script : archinstall(without any spaces)
+ 
   if the command is not found install it using packman -Sy archinstall
 
 Then we will navigate through the installtion process using the arrow keys and set which ever values are required by us to set..

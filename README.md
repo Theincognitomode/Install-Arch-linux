@@ -13,7 +13,7 @@ https://archlinux.org/download/
 
 5. Then start the machine, let the machine if everysteps are done correctly you will get a terminal with root privileges now run the following command :
 
- ``` setfont ter-132n ```
+       setfont ter-132n
  
  ii) Check for stable connection using: ping archlinux.org
  

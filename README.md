@@ -1,6 +1,3 @@
-# Install-Arch-linux
-How to install arch linux on ORACLE Virtual Box:
-
 1. Download the oracle virtual box :) 
 https://www.virtualbox.org/
 
@@ -14,11 +11,11 @@ https://archlinux.org/download/
 
 5. Then start the machine, let the machine if everysteps are done correctly you will get a terminal with root privileges now run the following command :
 
- 1. setfont ter-132n
- 2. Check for stable connection using: ping archlinux.org
- 3. Type `pacman -Sy` to synchronize the packagelist.
- 4. Then install the arsenalinex keyring package `pacman -Sy archlinux-keyring 
- 5. Launch the archlinux installer script : archinstall(without any spaces)
+ i) setfont ter-132n
+ ii) Check for stable connection using: ping archlinux.org
+ iii) Type `pacman -Sy` to synchronize the packagelist.
+ iv) Then install the arsenalinex keyring package `pacman -Sy archlinux-keyring 
+ v) Launch the archlinux installer script : archinstall(without any spaces)
   if the command is not found install it using packman -Sy archinstall
 
 Then we will navigate through the installtion process using the arrow keys and set which ever values are required by us to set..
@@ -47,4 +44,3 @@ then shutdown now
 Then headover to the vm and click on settings then click on storage and click on the CD icon and then click the remove virtual disk option
 
 And you are done now simply start the virtual machine..
-
